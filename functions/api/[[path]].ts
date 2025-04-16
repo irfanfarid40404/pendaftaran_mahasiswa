@@ -1,3 +1,5 @@
+type D1Database = any
+
 export interface Env {
     DB: D1Database
 }
