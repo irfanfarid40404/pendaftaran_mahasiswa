@@ -1,0 +1,11 @@
+name = "pendaftaran"
+compatibility_date = "2023-08-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "pendaftaran_db"
+database_id = "41b55c74-9457-4fff-b870-c3f2fc8c9a59"  # Ganti dengan ID database Anda
+
+[build]
+command = "npm run build"
+publish = "dist"

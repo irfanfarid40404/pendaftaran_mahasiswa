@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS mahasiswa (
+  nim TEXT PRIMARY KEY,
+  nama TEXT NOT NULL,
+  jurusan TEXT NOT NULL,
+  semester INTEGER NOT NULL,
+  email TEXT NOT NULL UNIQUE,
+  created_at TEXT DEFAULT CURRENT_TIMESTAMP
+);
